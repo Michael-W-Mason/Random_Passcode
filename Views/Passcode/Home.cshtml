@@ -1,0 +1,5 @@
+<div style="text-align: center; flex-direction: column; display: flex; justify-content: center; align-items: center; margin-top: 25vh; gap: 2rem;">
+    <h1>Random Passcode #<span id="num">@Context.Session.GetInt32("num")</span></h1>
+    <input id="passcode" type="text" disabled placeholder="" style="width: 20rem; padding: 1rem; text-align: center;">
+    <button onclick="passcodeHandler()">Generate</button>
+</div>
